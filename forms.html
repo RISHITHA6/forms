@@ -12,12 +12,10 @@
     h1{
         text-align: center;
     }
-    
-
-    </style>
+</style>
 <body>
     <h1>RegistrationForm</h1>
-   <div class="container" style="background-color:#fc2c77">
+   <div class="container-fluid">
     <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
@@ -47,7 +45,6 @@
                         <br>
                         <div class="row">
                         <div class="col-lg-6">
-                            
                             <label>email:</label>
                             <input type="text" name="email" class="form-control" placeholder="enter your email">
                         </div>
@@ -55,23 +52,21 @@
                             <label>Phonenumber:</label>
                             <input type="text" name="phno" class="form-control" placeholder="enter your mobile number">
                         </div>
-                        <div>
-                        </div>
-                            
+                        <div class="container">
                     <select name="subject" id="subject"  class="form-control">
-                        <option value="1">subject</option>
-                        <option value="2">English</option>
-                        <option value="3">Telugu</option>
-                        <option value="4">Maths</option>
-                        <option value="5">science</option>
+                        <option value="1">choose</option>
+                        <option value="2">subject 1</option>
+                        <option value="3">subject 2</option>
+                        <option value="4">subject 3</option>
+                        <option value="5">subject 4</option>
                     </select>
                     </div>
-                    
+                    </div>  
                 </form>
             </div>
         </div>
         <div class="col-lg-6">
-            <button type="button" class = "form-control btn btn-primary">Submit</button>
+            <button type="button" class = "btn btn-primary">Submit</button>
         </div>
    </div>
 </body>
